@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/coral">
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/editleftfrag"
+        android:textColor="@color/black"
+        android:hint="write smthng..."
+        android:textSize="30sp"
+        android:layout_marginTop="60dp"
+        android:layout_marginStart="30dp"></EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="go to frag 2"
+        android:id="@+id/btnleftfrag"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="30dp"
+        android:backgroundTint="@color/black"></Button>
+
+</LinearLayout>
